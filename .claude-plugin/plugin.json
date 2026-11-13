@@ -1,0 +1,40 @@
+{
+  "name": "eno-vn",
+  "displayName": "eno.vn",
+  "version": "1.0.0",
+  "description": "Manage your eno.vn storefront from Claude Code: create and edit listings, sync a catalogue, read views and leads, and manage webhooks, through eno.vn's hosted MCP server.",
+  "author": {
+    "name": "eno.vn",
+    "email": "support@eno.vn",
+    "url": "https://eno.vn"
+  },
+  "homepage": "https://eno.vn/developers/mcp",
+  "privacyPolicyUrl": "https://eno.vn/privacy",
+  "repository": "https://github.com/Soolking-cyber/eno-vn-plugin",
+  "license": "MIT",
+  "keywords": [
+    "vietnam",
+    "marketplace",
+    "ecommerce",
+    "listings",
+    "storefront"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "eno.vn API key",
+      "description": "Your shop's Partner API key (starts with eno_live_). Create one on eno.vn under Dashboard, Developers.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "mcpServers": {
+    "eno-vn": {
+      "type": "http",
+      "url": "https://eno.vn/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

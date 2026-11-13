@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "eno-vn": {
+      "url": "https://eno.vn/api/mcp",
+      "headers": { "Authorization": "Bearer ${ENO_API_KEY}" }
+    }
+  }
+}
