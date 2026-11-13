@@ -3,11 +3,20 @@
   "displayName": "eno.vn",
   "version": "1.0.0",
   "description": "Manage your eno.vn storefront from Cursor: create and edit listings, sync a catalogue, read views and leads, and manage webhooks, through eno.vn's hosted MCP server.",
-  "author": { "name": "eno.vn", "email": "support@eno.vn" },
+  "author": {
+    "name": "eno.vn",
+    "email": "support@eno.vn"
+  },
   "homepage": "https://eno.vn/developers/mcp",
   "repository": "https://github.com/Soolking-cyber/eno-vn-plugin",
   "license": "MIT",
-  "keywords": ["vietnam", "marketplace", "ecommerce", "listings", "storefront"],
+  "keywords": [
+    "vietnam",
+    "marketplace",
+    "ecommerce",
+    "listings",
+    "storefront"
+  ],
   "logo": "assets/logo.png",
   "variables": {
     "type": "object",
@@ -18,6 +27,8 @@
         "description": "Your shop's Partner API key (starts with eno_live_). Create one on eno.vn under Dashboard, Developers."
       }
     },
-    "required": ["ENO_API_KEY"]
+    "required": [
+      "ENO_API_KEY"
+    ]
   }
 }

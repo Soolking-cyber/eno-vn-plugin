@@ -1,8 +1,10 @@
 # eno.vn for Claude Code and Cursor
 
-![eno.vn](assets/logo.png)
+![eno.vn](claude/assets/logo.png)
 
 [eno.vn](https://eno.vn) is a marketplace for expats and internationals in Vietnam: housing, jobs, vehicles, services and second-hand goods. This plugin connects your coding agent to eno.vn's hosted MCP server, so it can run your shop for you: create and edit listings, put a whole catalogue online in one call, mark items sold, read views and leads, and manage webhooks.
+
+The Claude Code plugin is in [`claude/`](claude) and the Cursor plugin in [`cursor/`](cursor).
 
 ## What you need
 

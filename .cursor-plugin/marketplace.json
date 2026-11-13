@@ -1,0 +1,17 @@
+{
+  "name": "eno-vn",
+  "owner": {
+    "name": "eno.vn",
+    "email": "support@eno.vn"
+  },
+  "metadata": {
+    "description": "eno.vn's own plugins: manage an eno.vn storefront from your coding agent."
+  },
+  "plugins": [
+    {
+      "name": "eno-vn",
+      "source": "cursor",
+      "description": "Manage your eno.vn storefront: listings, catalogue sync, analytics and webhooks."
+    }
+  ]
+}
