@@ -10,6 +10,9 @@
   },
   "homepage": "https://eno.vn/developers/mcp",
   "privacyPolicyUrl": "https://eno.vn/privacy",
+  "documentationUrl": "https://eno.vn/developers/mcp",
+  "supportUrl": "https://eno.vn/help",
+  "termsOfServiceUrl": "https://eno.vn/terms",
   "repository": "https://github.com/Soolking-cyber/eno-vn-plugin",
   "license": "MIT",
   "keywords": [
